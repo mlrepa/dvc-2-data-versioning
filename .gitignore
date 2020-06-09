@@ -4,7 +4,7 @@
 .idea
 
 ## Python
-venv
+venv*
 .ipynb_checkpoints
 /sample_image.jpg
 /datadir
