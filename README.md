@@ -15,7 +15,7 @@ Install virtualenv in advance:
 pip install virtualenv
 ```
 
-Create virtual environment 
+Create virtual environment
 ```bash
 virtualenv venv-dvc-2-data-versioning
 source venv-dvc-2-data-versioning/bin/activate
@@ -41,7 +41,7 @@ sudo jupyter contrib nbextension install
 jupyter nbextension enable toc2/main
 ```
 
-## 6. Run and follow Jupyter Notebook `Lesson 3.ipynb` for instructions:
+## 6. Run and follow Jupyter Notebook `dvc-2-data-versioning.ipynb` for instructions:
 
 ```bash
 jupyter notebook
