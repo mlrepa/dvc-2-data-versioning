@@ -1,9 +1,10 @@
-# dvc-lesson-3
+# Lesson 2 tutorial: Versioning Data and Model 
+**ML REPA School course**: Machine Learning experiments reproducibility and engineering with DVC
 
-## 1. clone this repository
+## 1. Clone this repository
 
 ```bash
-git clone https://gitlab.com/7labs.ru/tutorials-dvc/dvc-2-data-versioning.git
+git clone https://github.com/mlrepa/dvc-2-data-versioning.git
 cd dvc-2-data-versioning
 ```
 
@@ -15,10 +16,10 @@ Install virtualenv in advance:
 pip install virtualenv
 ```
 
-Create virtual environment
+Create virtual environment named `dvc` (you may use other name)
 ```bash
-virtualenv venv-dvc-2-data-versioning
-source venv-dvc-2-data-versioning/bin/activate
+virtualenv dvc
+source dvc/bin/activate
 ```
 
 ## 3. Install python libraries
@@ -31,10 +32,10 @@ pip install -r requirements.txt
 ## 4. Add Virtual Environment to Jupyter Notebook
 
 ```bash
-python -m ipykernel install --user --name=venv-dvc-2-data-versioning
+python -m ipykernel install --user --name=dvc
 ``` 
 
-## 5. Configure ToC for jupyter notebook
+## 5. Configure ToC for jupyter notebook (optional)
 
 ```bash
 sudo jupyter contrib nbextension install
