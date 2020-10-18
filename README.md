@@ -18,8 +18,8 @@ pip install virtualenv
 
 Create virtual environment named `dvc` (you may use other name)
 ```bash
-virtualenv dvc
-source dvc/bin/activate
+python3 -m venv dvc-venv
+source dvc-venv/bin/activate
 ```
 
 ## 3. Install python libraries
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## 4. Add Virtual Environment to Jupyter Notebook
 
 ```bash
-python -m ipykernel install --user --name=dvc
+python -m ipykernel install --user --name=dvc-venv
 ``` 
 
 ## 5. Configure ToC for jupyter notebook (optional)
