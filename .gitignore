@@ -2,6 +2,7 @@
 
 ## IDEs
 .idea
+.DS_Store
 
 ## Python
 dvc-venv*
