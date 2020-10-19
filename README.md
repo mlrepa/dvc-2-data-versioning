@@ -10,12 +10,6 @@ cd dvc-2-data-versioning
 
 ## 2. Create and activate virtual environment
 
-Install virtualenv in advance: 
-
-```bash
-pip install virtualenv
-```
-
 Create virtual environment named `dvc` (you may use other name)
 ```bash
 python3 -m venv dvc-venv
