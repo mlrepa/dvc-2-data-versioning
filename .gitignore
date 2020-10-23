@@ -1,0 +1,12 @@
+# folders
+
+## IDEs
+.idea
+.DS_Store
+
+## Python
+dvc-venv*
+.ipynb_checkpoints
+/sample_image.jpg
+/datadir
+/cats-dogs
