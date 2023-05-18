@@ -1,4 +1,1 @@
-jupyter==1.0.0
-jupyter_contrib_nbextensions==0.5.1
-ipykernel==5.5.0
-dvc==2.0.5
+dvc==2.57.2
